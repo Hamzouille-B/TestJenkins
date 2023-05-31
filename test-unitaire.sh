@@ -3,7 +3,7 @@
 # ===============
 # Test le script suite avec les valeurs 1, 2, 3 et vérifier que le résultat est bien 5
 echo "test unitaire du script suite.sh"
-resultat=$(./suite.sh 1 2 3)
+resultat=$(/home/mehdi/projetgit/TestJenkins/calcul.sh 1 2 3)
 
 if [[ $resultat -eq 5 ]]
 then
